@@ -1,0 +1,105 @@
+﻿body 
+{
+    background-image: url(2.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 
+{
+    font-family: Century gothic;
+    text-align: center;
+    padding: 15px 25px;
+    font-size: 60px;
+    color: darkgrey;
+}
+
+.loginbox 
+{
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.logo 
+{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 48%;     
+    top: -12%;
+    left: calc(50% - 50px);
+}
+
+h2 
+{
+    margin: 0;
+    padding: 25px 60px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p 
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: darkgrey;
+    font-size: 25px;
+}
+
+.loginbox input 
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+    .loginbox input[type = "text"], input[type = "Password"]
+    {
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .loginbox input[type = "submit"] {
+        border: none;
+        outline: none;
+        height: 40px;
+        background: black;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 20px;
+    }
+
+   .loginbox input[type = "submit"]:hover
+   {
+            cursor: pointer;
+            background: yellow;
+            color: #000;
+   }
+
+.loginbox a 
+{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+    .loginbox a:hover 
+    {
+        color: yellow;
+    }

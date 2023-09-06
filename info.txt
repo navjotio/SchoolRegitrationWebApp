@@ -1,0 +1,9 @@
+The whole project is based on php and html and the use of css 
+
+in order to check the database, XAMPP control has been used as the php database to store the values in it , 
+
+To use the website completely , i recommend using the XAMPP server 
+
+Thank you ;D 
+
+The mainpage.html is the starting point of the website :D 

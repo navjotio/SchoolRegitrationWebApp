@@ -1,0 +1,61 @@
+﻿body{
+    background-image: url(reg.jpg);
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Century Gothic';
+    text-align: center;
+    padding: 55px 25px;
+    font-size: 60px;
+    color: goldenrod;
+}
+.Rform{
+    width: 400px;
+    height: 450px; 
+    background: transparent;
+    color: #fff; 
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px; 
+}
+.Rform p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold; 
+    color: goldenrod;
+    font-size: 25px; 
+}
+.Rform input{
+    width: 100%;
+    margin-bottom: 20px; 
+}
+.Rform input[type ="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    color: white;
+
+}
+.Rform input[type="submit"]{
+    border: none; 
+    outline: none; 
+    background: transparent;
+    color: #fff;
+    font-size: 18px; 
+    border-radius: 20px;
+}
+
+.Rform input[type="submit"]:hover{
+    cursor: pointer;
+    color: gold;
+}
